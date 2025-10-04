@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Conversion</title>
+</head>
+<body>
+    <div id = "box">
+        <h1 class = "headers">CM AND FEET CONVERSION PROGRAM</h1> 
+        <label for="value" id="value" class="text">Enter a value:</label><br><br>
+        <input type="number" id="valuebox" min="0" value="1">  <br> <br>
+        <h2 class = "headers">Conversion options:</h2> 
+        <label for="cm to feet" class="labels">Cm to Feet</label>
+        <input type="radio" value="cm to feet" name="conversion" id="option1"> <br>
+        <label for="feet to cm" class="labels">Feet to Cm</label>
+        <input type="radio" value="feet to cm" name="conversion" id="option2"> <br> <br> <br>
+        <button id = "enterbutton">Convert</button>
+        </div>
+        <div id="resultbox">Result: <h3 id = "result"></h3></div>
+
+    <script src = "script.js"></script>
+</body>
+</html>

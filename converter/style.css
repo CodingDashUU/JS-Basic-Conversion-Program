@@ -1,0 +1,38 @@
+#box{
+    background-color: hsl(300, 100%, 76%);
+    text-align: center;
+    height: 25em;
+    padding: 25px;
+    border: 20px solid;
+}
+.labels{
+    font-size: 2em;
+    font-family: fantasy;
+    color: blueviolet;
+    
+}
+#valuebox{
+    transform: scale(2,2);
+}
+#value{
+    font-size: 2em;
+    font-family: fantasy;
+    color: hsl(0, 100%, 40%);
+}
+.headers{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#enterbutton{
+    transform: scale(3,2.5);
+}
+#resultbox{
+    background-color: hsl(84, 100%, 89%);
+    font-size: 4em;
+    border: 20px solid;
+    transform: translate(0px,10px);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#result{
+    color: red;
+}
